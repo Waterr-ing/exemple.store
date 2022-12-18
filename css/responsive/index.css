@@ -1,0 +1,46 @@
+@media  screen and (max-width: 991px) {
+    .subscribe {
+        padding-top: 68px;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .items .boxes .box{
+        width: 235px;
+    }
+    .popular-items h3,
+    .new-items h3 { 
+        margin-bottom: none;
+    }
+    .subscribe h2 {
+        font-size: 1.6rem;
+    } 
+    .subscribe h3 {
+        font-size: 1.25rem;
+    }
+    .subscribe input[type="submit"] {
+        margin-top: 16px;
+    }
+    .carousel-item,  .carousel-item img {
+        height: 350px;
+    }
+    footer .soc nav {
+        gap: 50px;
+    }  
+}
+@media  screen and (max-width: 576px) {
+    .carousel-item,  .carousel-item img {
+        height: 200px;
+    }
+    footer .soc nav {
+        gap: 50px;
+    }
+}
+@media  screen and (max-width: 480px) {
+    .subscribe h2 {
+        line-height: 27px;
+    }
+    .subscribe h3 {
+        font-size: 0.9rem;
+        line-height: 27pxs;
+    }
+}
